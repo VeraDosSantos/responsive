@@ -82,3 +82,27 @@ footer{
     background-color:#33b5e5 ;
     color:#fff;
 }
+/***************partie mobile*****************/
+@media screen and (max-width:768px){
+    /*Là, je travaille sur les ecrans moins de 768px*/
+    header{
+        background-color: red;
+    }
+
+    .zone_1{
+        flex-wrap: wrap;/* ici on peut utiliser aussi display:block*/
+    }
+
+    .col-3{
+        width: 100%; 
+    }
+
+    .col-6{
+        width: 100%;
+    }
+
+    .img{
+        width: 50%;
+    }
+
+}
